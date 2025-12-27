@@ -16,16 +16,16 @@ This project evaluates the historical performance of two Vanguard ETFs—**Large
 
 ## 📈 Key Findings
 Based on the analysis of weekly data from Jan 2020 to Dec 2025:
-* **Large-Cap (VV)**: Total ROI of **~115.17%** | Annualized Volatility: **0.198**
-* **Small-Cap (VB)**: Total ROI of **~59.24%** | Annualized Volatility: **0.249**
+* **Large-Cap (VV)**: Total ROI of **~112.67%** | Annualized Volatility: **0.198**
+* **Small-Cap (VB)**: Total ROI of **~58.62%** | Annualized Volatility: **0.249**
 * **Conclusion**: Large-Cap ETFs significantly outperformed Small-Cap ETFs in both total profit and risk-adjusted stability during this specific window, refuting the "Small-Cap Premium" theory for this timeframe.
 
 ## 🔌 Data Sourcing
 The primary data for this analysis was programmatically retrieved from the **Alpha Vantage API**.
 
 * [12/22/25]**Data Source**: Alpha Vantage (Financial Market Data API) 
-* [12/22/25]**Endpoint Used**: `TIME_SERIES_WEEKLY` [cite: 3]
-* **Data Granularity**: Weekly closing prices for the 5-year period (2020–2025) [cite: 3]
+* [12/22/25]**Endpoint Used**: `TIME_SERIES_WEEKLY`
+* **Data Granularity**: Weekly closing prices for the 5-year period (2020–2025)
 * **Tickers Analyzed**: 
     * `VV` (Vanguard Large-Cap ETF)
     * `VB` (Vanguard Small-Cap ETF)
